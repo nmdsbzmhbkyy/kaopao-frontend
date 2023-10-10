@@ -9,7 +9,7 @@
   <div style="margin-bottom: 16px" />
 
   <team-list-card :teamList="teamList" />
-  <div style="height: 47px;" />
+  <div style="height: 147px;" />
   <!-- 浮动按钮 -->
   <van-button id="add-bytton" type="primary" :icon="icon" @click="showBubbles"/>
   <div v-if="showBubble" >
