@@ -1,10 +1,10 @@
 <template>
-  <van-empty v-if="userList.length === 0" description="无搜索结果" />
   <van-cell center title="心动模式">
     <template #right-icon>
       <van-switch v-model="isMatchMode" size="24" @click="watchEffect"/>
     </template>
   </van-cell>
+  <van-empty v-if="userList.length === 0" description="无搜索结果" />
   <van-list
       v-model:loading="loading"
       :finished="finished"
@@ -30,6 +30,7 @@
       <van-divider :style="{ color: '#ffffff', borderColor: '#ffffff',margin:'2px 0px 0px 0px'}"/>
     </div>
   </van-list>
+
   <div style="height: 47px;" />
 
 </template>
