@@ -5,9 +5,8 @@ import axios from "axios";
 
 const myAxios = axios.create({
     // baseURL: 'http://localhost:8085/api',
-    baseURL: 'https://friendback.chenkai.fun/api'
-    //baseURL: 'https://friendsback.chenkai.fun/api'
-    //baseURL: 'http://friendsback.chenkai.fun/api'
+    //baseURL: 'https://friendback.chenkai.fun/api'
+    baseURL: 'http://friendsback.chenkai.fun/api'
 });
 
 // Alter defaults after instance has been created
